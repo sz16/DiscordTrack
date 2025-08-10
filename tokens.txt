@@ -1,0 +1,38 @@
+# Discord Bot Tokens
+
+## Current Token
+- Bot Name: Chaos Form#7147
+- Token: DISCORD_TOKEN (stored in environment variables)
+- Status: Active and monitoring 62 members in "Hải Dương Egoists" server
+- Server ID: 760008091827306498 (auto-configured)
+- Last Connected: August 10, 2025
+
+## Token Management Instructions
+1. Your Discord token is securely stored in Replit Secrets
+2. To update the token, go to Replit Secrets and update DISCORD_TOKEN
+3. Restart the application after updating the token
+4. The bot will automatically connect when the application starts
+
+## Server Configuration
+- Server ID: Not yet configured (set in Settings)
+- Monitoring: Always active (continuous monitoring)
+- Reminder Settings: 2+ weeks inactive threshold, 3-day cooldown, 10-minute rate limit
+
+## Bot Permissions Required
+- Read Messages
+- Send Messages  
+- View Channels
+- Connect to Voice Channels
+- View Server Members
+- Read Message History
+
+## Troubleshooting
+- If bot shows offline: Check token validity in Discord Developer Portal
+- If no members shown: Bot will auto-configure the first server it's connected to
+- If reminders not working: Check bot has permission to send messages in channels with "bot" in the name
+- If wrong server monitored: Update server ID in Settings page
+
+## Auto-Configuration
+- The bot automatically detects and monitors the first Discord server it joins
+- Server ID gets saved to settings for future connections
+- No manual configuration needed for single-server bots
